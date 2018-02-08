@@ -131,7 +131,7 @@ header h1 {
 .topmenu {
   display: block;
   position: fixed;
-  bottom: -10em;
+  bottom: -3em;
   left: 0;
   width: 100%;
   z-index: 90;
