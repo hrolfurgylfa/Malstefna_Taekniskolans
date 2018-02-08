@@ -62,14 +62,14 @@ header {
   text-align: center;
 }
 footer {
-  background-color: pink; 
+  background-color: white; 
 }
 .midja {
-  background-color: lightgreen; 
+  background-color: white; 
 }
 .vinstri, 
 .haegri {
-  background-color: yellow; 
+  background-color: white; 
 }
 
 header,
@@ -79,11 +79,14 @@ footer,
 .haegri {
   padding: 1em; 
 }
+.midja ul h3 {
+  margin-top: 4em;
+  text-align: center;
+}
 
 /* ====== leturstílar ====== */
 
 header h1 {
-  color: #fff;
   line-height: 1.2;
   font-weight: normal;
 }
