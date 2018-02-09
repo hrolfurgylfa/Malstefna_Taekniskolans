@@ -30,6 +30,24 @@ footer {
   grid-area: vinstri;
 }
 
+.Kennari{
+  grid-area: kennari;
+}
+.student1{
+  grid-area: studenteitt;
+}
+.student2{
+  grid-area: studenttvo;
+}
+.timi{
+  grid-area: timi;
+}
+.listi_nafn{
+  position: relative;
+  left:-100px;
+  padding: 10px;
+  grid-area: listi;
+}
 /* ====== GRID Template Areas ===== */
 body {
   display: grid;
@@ -48,7 +66,19 @@ body {
   "haegri"
   "vinstri";
 }
-
+.listi_nafn{
+  display:grid;
+  grid-gap: 0;
+  grid-template-areas: 
+  "kennari studenteitt studenttvo";
+}
+footer{
+  display: grid;
+  grid-gap:0;
+  grid-template-areas: 
+  "timi"
+  "listi_nafn";
+}
 /* ====== Base litir + padding ====== */
 
 body {
@@ -57,12 +87,15 @@ body {
 .topnav {
   background-color: lightblue; 
 }
+h3{
+  color:#d37e06;
+}
 header {
   background-color: lightblue;
   text-align: center;
 }
 footer {
-  background-color: white; 
+  background-color: lightblue; 
 }
 .midja {
   background-color: white; 
@@ -232,6 +265,9 @@ header h1 {
   body {
     max-width: 58em;
     margin: 0 auto;
+  }
+  .listi_nafn{
+    left:-250px;
   }
   .mynda_container {
     grid-template-columns: repeat(4,83.4%);
